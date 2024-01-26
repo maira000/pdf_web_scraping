@@ -4,8 +4,8 @@ This document provides instructions on how to run the Python script for extracti
 ## Dependencies
 Before running the script, following dependencies are required:
 
-Python (vs code and jupyter notebook)
-We can download from websites:
+Download from these websites:
+Python : https://www.python.org/
 vs code: https://code.visualstudio.com/
 jupyter : https://jupyter.org/
 Required Python packages:
@@ -22,9 +22,20 @@ pip install flask pandas requests tabula-py beautifulsoup4
 
 ## Running the Script
 Clone the Repository: 
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/maira000/pdf_web_scraping
 cd your-repository
 
+Open a Jupyter notebook or a Python script editor.
+
+Run the script.
+
+python script.py
+
+Script Configuration
+The script does not require any additional configuration. However, you can customize the following variables in the script:
+
+pdf_path: sample.pdf
+web_url: https://www.python.org/
 
 Navigate to the Directory: 
 Open a terminal or command prompt and navigate to the directory where the script is located.
@@ -37,7 +48,7 @@ python script.py
 Once the script is running, you can access the API endpoint to store data in the database. By default, the endpoint URL is http://127.0.0.1:5000/store_data.
 
 # Downloading Data: 
-To download the stored data as an Excel file, access the download endpoint. By default, the download URL is http://127.0.0.1:5000/download_data.
+To download the stored data as an Excel file, access the download endpoint. The download URL is http://127.0.0.1:5000/download_data.
 
 # Usage
 PDF Data Extraction: The script automatically extracts structured data from PDF files located in the specified directory. Ensure that the PDF files are in a readable format and accessible to the script.
@@ -48,12 +59,10 @@ The script performs web scraping to gather additional information related to the
 # Data Storage: 
 The extracted data is stored in a SQLite database. Each run of the script appends the new data to the database.
 
-
 # Additional Notes
 Ensure that you have proper permissions to read/write files in the specified directories.
 Handle any errors or exceptions encountered during the execution of the script.
 Modify the script as needed to suit your specific requirements or use cases.
-
 
 # Conclusion
 By following these instructions, you can successfully run the PDF and web data scraping script, extract structured data from PDF files, perform web scraping, store the data in a database, and access it via an API endpoint.
