@@ -1,0 +1,17 @@
+2024-01-26 19:50:41,233 - INFO -  * Restarting with watchdog (windowsapi)
+2024-01-26 19:51:20,574 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-01-26 19:51:20,575 - INFO - [33mPress CTRL+C to quit[0m
+2024-01-26 19:51:20,595 - INFO -  * Restarting with stat
+2024-01-26 19:51:23,049 - WARNING -  * Debugger is active!
+2024-01-26 19:51:23,064 - INFO -  * Debugger PIN: 887-881-765
+2024-01-26 19:51:29,250 - INFO - 127.0.0.1 - - [26/Jan/2024 19:51:29] "GET / HTTP/1.1" 200 -
+2024-01-26 20:22:00,750 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-01-26 20:22:00,750 - INFO - [33mPress CTRL+C to quit[0m
+2024-01-26 20:22:00,750 - INFO -  * Restarting with stat
+2024-01-26 20:22:13,818 - WARNING -  * Debugger is active!
+2024-01-26 20:22:13,836 - INFO -  * Debugger PIN: 887-881-765
+2024-01-26 20:25:55,375 - INFO - 127.0.0.1 - - [26/Jan/2024 20:25:55] "GET / HTTP/1.1" 200 -
+2024-01-26 20:25:55,527 - INFO - 127.0.0.1 - - [26/Jan/2024 20:25:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-01-26 20:26:01,904 - INFO - 127.0.0.1 - - [26/Jan/2024 20:26:01] "GET / HTTP/1.1" 200 -
