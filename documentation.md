@@ -22,7 +22,9 @@ pip install flask pandas requests tabula-py beautifulsoup4
 
 ## Running the Script
 Clone the Repository: 
-Clone the repository containing the script to your local machine.
+git clone https://github.com/your-username/your-repository.git
+cd your-repository
+
 
 Navigate to the Directory: 
 Open a terminal or command prompt and navigate to the directory where the script is located.
