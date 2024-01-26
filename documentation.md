@@ -8,6 +8,7 @@ Download from these websites:
 Python : https://www.python.org/
 vs code: https://code.visualstudio.com/
 jupyter : https://jupyter.org/
+
 Required Python packages:
 Flask
 pandas
@@ -18,6 +19,7 @@ sqlite3
 
 ## Installing these dependencies using pip:
 
+Code:
 pip install flask pandas requests tabula-py beautifulsoup4
 
 ## Running the Script
@@ -27,14 +29,11 @@ cd your-repository
 
 Open a Jupyter notebook or a Python script editor.
 
-Run the script.
-
-python script.py
-
 Script Configuration
 The script does not require any additional configuration. However, you can customize the following variables in the script:
 
 pdf_path: sample.pdf
+
 web_url: https://www.python.org/
 
 Navigate to the Directory: 
