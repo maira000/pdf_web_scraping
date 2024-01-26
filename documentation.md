@@ -56,13 +56,29 @@ PDF Data Extraction: The script automatically extracts structured data from PDF 
 # Web Scraping: 
 The script performs web scraping to gather additional information related to the extracted PDF data. It accesses predefined web pages and extracts relevant data from them.
 
+# API Endpoint
+The script sets up a Flask web server with the following API endpoint:
+
+# Store Data Endpoint:
+URL: http://127.0.0.1:5000/store_data
+Method: POST
+Data Format: JSON
+
 # Data Storage: 
 The extracted data is stored in a SQLite database. Each run of the script appends the new data to the database.
 
 # Additional Notes
 Ensure that you have proper permissions to read/write files in the specified directories.
 Handle any errors or exceptions encountered during the execution of the script.
-Modify the script as needed to suit your specific requirements or use cases.
+
+# Troubleshooting
+If you encounter any issues or errors, refer to the following for troubleshooting:
+
+# Error Handling: 
+The script includes error handling for common issues. Check the error messages for guidance.
+
+# Logging: 
+View the script logs for additional information. Logs are stored in the logs/ directory.
 
 # Conclusion
 By following these instructions, you can successfully run the PDF and web data scraping script, extract structured data from PDF files, perform web scraping, store the data in a database, and access it via an API endpoint.
